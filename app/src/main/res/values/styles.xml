@@ -1,20 +1,25 @@
 <resources>
 
-    <!--
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    -->
-    <style name="AppBaseTheme" parent="Theme.AppCompat">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+    <!-- Application theme. -->
+    <style
+        name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:textColorPrimaryInverse">
+            @color/common_google_signin_btn_text_dark_focused
+        </item>
+        <item name="android:spinnerItemStyle">@style/TextViewSpinnerItem</item>
+        <item name="android:textColorPrimary">@color/common_plus_signin_btn_text_light_pressed</item>
+        <item name="android:windowBackground">@android:color/background_light</item>
+        <item name="colorAccent">?attr/actionModeSplitBackground</item>
     </style>
 
-    <!-- Application theme. -->
-    <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <style name="AppLeroyTheme" parent="AppBaseTheme" />
+
+    <style name="TextViewSpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingRight">40dp</item>
     </style>
+
 
 </resources>

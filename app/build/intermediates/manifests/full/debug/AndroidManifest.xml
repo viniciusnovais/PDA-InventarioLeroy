@@ -18,7 +18,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.pda.inventario.MainActivity"
+            android:name="com.pda.inventario.SplashActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,20 +27,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.pda.inventario.LoginActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name="com.pda.inventario.AutorizacaoActivity"
+            android:name="com.pda.inventario.PrincipalActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
             android:name="com.pda.inventario.ContagemActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pda.inventario.LoginActivity"
             android:label="@string/title_activity_contagem" >
         </activity>
-        <activity android:name="com.pda.inventario.SplashActivity" />
+        <activity android:name="com.pda.inventario.AutorizacaoActivity" />
         <activity android:name="com.pda.inventario.ConfiguracaoActivity" />
-        <activity android:name="com.pda.inventario.PrincipalActivity" />
+        <activity android:name="com.pda.inventario.MainActivity" />
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.

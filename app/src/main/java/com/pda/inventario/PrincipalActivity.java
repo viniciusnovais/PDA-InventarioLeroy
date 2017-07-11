@@ -56,7 +56,7 @@ public class PrincipalActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
 	    
-	    setContentView(R.layout.principal);
+	    setContentView(R.layout.principal_novo);
 	    
 	    Intent intent = getIntent();
 		objUsuarioLogado = (UsuarioEO)intent.getSerializableExtra("UsuarioEO");

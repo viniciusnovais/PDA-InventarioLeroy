@@ -67,9 +67,9 @@ public class ContagemActivity extends Activity {
 		setContentView(R.layout.contagem);
 
 		Intent intent = getIntent();
-		objUsuarioLogado = (UsuarioEO)intent.getSerializableExtra("UsuarioEO");
-		objInventarioCorrente = (InventarioEO)intent.getSerializableExtra("InventarioEO");
-		TIPO_ATIVIDADE = Integer.parseInt(intent.getSerializableExtra("TIPO_ATIVIDADE").toString());
+//		objUsuarioLogado = (UsuarioEO)intent.getSerializableExtra("UsuarioEO");
+//		objInventarioCorrente = (InventarioEO)intent.getSerializableExtra("InventarioEO");
+//		TIPO_ATIVIDADE = Integer.parseInt(intent.getSerializableExtra("TIPO_ATIVIDADE").toString());
 
 		etEndProd = (EditText) findViewById(R.id.etEndProd);
 		etEndProd.requestFocus();
@@ -265,8 +265,8 @@ public class ContagemActivity extends Activity {
 					"Múltiplos com verificação"
 			};
 
-			adp = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, values);
-			adp.setDropDownViewResource(android.R.layout.simple_spinner_item);
+			adp = new ArrayAdapter<>(this, R.layout.spinner_row, values);
+			adp.setDropDownViewResource(R.layout.spinner_row);
 			spinMetodoContagem.setAdapter(adp);
 
 		} catch (Exception e) {

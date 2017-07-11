@@ -1,10 +1,38 @@
 [
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_settings.png",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_settings.png"
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_import.png",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_import.png"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_arrow_drop_down_black_24dp.png",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_arrow_drop_down_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_list.png",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_list.png"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_listing_option.png",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_listing_option.png"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_youtube_searched_for_white_24dp.png",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_youtube_searched_for_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_settings.png",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_export.png",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_export.png"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_minus.png",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_minus.png"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_list_with_dots.png",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_list_with_dots.png"
     }
 ]

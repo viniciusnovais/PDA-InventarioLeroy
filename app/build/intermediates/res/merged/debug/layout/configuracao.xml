@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fundopreto"
+    android:layout_margin="16dp"
     android:orientation="vertical">
 
     <LinearLayout
@@ -17,12 +17,12 @@
             android:id="@+id/imageView1"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:src="@drawable/pda"
+            android:src="@drawable/logo_leroy"
             tools:ignore="ContentDescription" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight=".3"
@@ -35,67 +35,57 @@
             android:layout_height="wrap_content"
             android:text="Servidor"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@android:color/white"
+            android:textColor="@color/color_gray_dark_textview"
             tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/etServer"
-            android:layout_width="320dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_x="18dp"
-            android:layout_y="234dp"
-            android:background="@android:color/white"
-            android:backgroundTint="@color/switch_thumb_normal_material_dark"
-            android:backgroundTintMode="add"
+            android:background="@drawable/bg_edittext"
             android:ems="10"
             android:inputType="text"
-            android:textColor="@android:color/black"
+            android:textColor="@color/color_gray_dark_edittext"
             tools:ignore="UnusedAttribute" />
 
         <TextView
             android:id="@+id/TextView01"
-            android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:text="Diretório Virtual"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@android:color/white"
+            android:textColor="@color/color_gray_dark_textview"
             tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/etDiretorio"
-            android:layout_width="320dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_x="21dp"
-            android:layout_y="336dp"
-            android:background="@android:color/white"
-            android:backgroundTint="@color/switch_thumb_normal_material_dark"
-            android:backgroundTintMode="add"
+            android:background="@drawable/bg_edittext"
             android:ems="10"
             android:inputType="text"
-            android:textColor="@android:color/black"
+            android:textColor="@color/color_gray_dark_edittext"
             tools:ignore="UnusedAttribute" />
 
         <TextView
             android:id="@+id/TextView02"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="Filial"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@android:color/white"
+            android:textColor="@color/color_gray_dark_textview"
             tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/etFilial"
-            android:layout_width="320dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/white"
-            android:backgroundTint="@color/switch_thumb_normal_material_dark"
-            android:backgroundTintMode="add"
+            android:background="@drawable/bg_edittext"
             android:ems="10"
             android:inputType="text"
-            android:textColor="@android:color/black"
+            android:textColor="@color/color_gray_dark_edittext"
             tools:ignore="UnusedAttribute" />
 
         <LinearLayout
@@ -109,15 +99,11 @@
             <Button
                 android:id="@+id/btnOkConfig"
                 style="@style/AppBaseTheme"
-                android:layout_width="wrap_content"
-                android:layout_height="47dp"
-                android:background="@drawable/selector_button"
-                android:drawableRight="@drawable/ok"
-                android:shadowColor="#A8A8A8"
-                android:shadowDx="0"
-                android:shadowDy="0"
-                android:shadowRadius="5"
-                android:text="Confirmar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button"
+                android:layout_marginTop="20dp"
+                android:text="CONFIRMAR"
                 android:textColor="#FFFFFF"
                 android:textSize="15dp"
                 tools:ignore="HardcodedText" />
