@@ -41,4 +41,10 @@
     <string name="zerar">Zerar</string>
     <string name="produto">Produto: </string>
     <string name="envio">Envios Pendentes:</string>
+    <string name="inventario_rotativo">Inventário Rotativo</string>
+    <string name="limpar">Limpar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="Produto">Produto</string>
+    <string name="tonalidade">Insira a tonalidade</string>
 </resources>

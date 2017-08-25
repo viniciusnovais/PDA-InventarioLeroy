@@ -19,7 +19,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.pda.inventario.SplashActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,19 +29,26 @@
         </activity>
         <activity
             android:name="com.pda.inventario.PrincipalActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.pda.inventario.ContagemActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <!-- <activity -->
+        <!-- android:name="com.pda.inventario.LoginActivity" -->
+        <!-- android:label="@string/title_activity_contagem" > -->
+        <!-- </activity> -->
+
         <activity
-            android:name="com.pda.inventario.LoginActivity"
-            android:label="@string/title_activity_contagem" >
-        </activity>
-        <activity android:name="com.pda.inventario.AutorizacaoActivity" />
-        <activity android:name="com.pda.inventario.ConfiguracaoActivity" />
-        <activity android:name="com.pda.inventario.MainActivity" />
+            android:name="com.pda.inventario.AutorizacaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pda.inventario.ConfiguracaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pda.inventario.MainActivity"
+            android:screenOrientation="portrait" />
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.

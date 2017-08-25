@@ -74,8 +74,9 @@
       android:layout_marginTop="10dp"
       android:shadowRadius="5"
       android:text="Entrar"
+      android:textAllCaps="false"
       android:textColor="@color/primary_material_light"
-      android:textSize="20sp" />
+      android:textSize="20dp" />
 
  </LinearLayout>
 </ScrollView>

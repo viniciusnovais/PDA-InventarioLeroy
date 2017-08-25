@@ -10,59 +10,60 @@
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/logo_leroy"
         tools:ignore="ContentDescription" />
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_gravity="center"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:layout_height="wrap_content">
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inventario_rotativo"
+            android:textSize="22dp" />
 
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Usuário: "
-            android:layout_marginTop="5dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@color/color_gray_dark_textview" />
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tvUsuarioLogado"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:textColor="@color/color_gray_dark_textview"
-            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Usuário / LDAP "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tvUsuarioLogado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="51000308"
+                android:textColor="@color/color_gray_dark_textview"
+                android:textSize="18sp" />
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Autorização"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@color/color_gray_dark_textview"
-            tools:ignore="HardcodedText" />
-
         <EditText
-            android:layout_marginTop="10dp"
             android:id="@+id/etAutorizacao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:background="@drawable/bg_edittext"
-            android:textColor="@color/color_gray_dark_edittext"
             android:ems="10"
-            android:inputType="number">
+            android:hint="Autorização"
+            android:textColorHint="@color/color_gray_dark_edittext"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/color_gray_dark_edittext">
 
             <requestFocus />
         </EditText>
@@ -77,40 +78,50 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnOk"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight=".33"
-            android:background="@drawable/bg_button"
-            android:text="Ok"
-            android:padding="5dp"
-            android:textColor="@color/primary_material_light"
-            android:textSize="15dp" />
-
-        <Button
             android:id="@+id/btnLimpar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".33"
-            android:background="@drawable/bg_button"
-            android:text="Limpar"
+            android:layout_weight=".5"
+            android:background="@drawable/bg_button_white"
             android:padding="5dp"
-            android:layout_marginLeft="5dp"
-            android:textColor="@color/primary_material_light"
+            android:text="@string/limpar"
+            android:textAllCaps="false"
+            android:textColor="@color/green"
             android:textSize="15dp" />
 
         <Button
-            android:id="@+id/btnConfig"
+            android:id="@+id/btnOk"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".33"
+            android:layout_weight=".5"
             android:background="@drawable/bg_button"
-            android:layout_marginLeft="5dp"
-            android:text="Config "
             android:padding="5dp"
+            android:layout_marginLeft="16dp"
+            android:text="@string/confirmar"
+            android:textAllCaps="false"
             android:textColor="@color/primary_material_light"
             android:textSize="15dp" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_white"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/configuracoes"
+        android:textAllCaps="false"
+        android:textColor="@color/green"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Versão: 3.4.1" />
 
 </LinearLayout>

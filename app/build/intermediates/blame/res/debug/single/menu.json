@@ -1,10 +1,26 @@
 [
     {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contagem.xml",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\src\\main\\res\\menu\\contagem.xml"
     },
     {
+        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contagem.xml",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\src\\main\\res\\menu\\contagem.xml"
+    },
+    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contagem.xml",
+        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\src\\main\\res\\menu\\contagem.xml"
     }
 ]

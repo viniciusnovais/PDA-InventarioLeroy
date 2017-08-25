@@ -72,22 +72,22 @@ public class LoginActivity extends AppCompatActivity {
         task.execute();
 
 
-//        btnLogin.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View v) {
-//
-//                if (etLogin.getText().toString().equals("") || etPassword.getText().toString().equals("")) {
-//                    Toast.makeText(getApplicationContext(), StringUtils.BLANK_FIELD, Toast.LENGTH_SHORT).show();
-//                } else {
-//                    if (etLogin.getText().toString().equals("12345678") && etPassword.getText().toString().equals("12345678")) {
-//                        Intent intent = new Intent(LoginActivity.this, ConfiguracaoActivity.class);
-//                        startActivity(intent);
-//                    } else {
-//                        AsyncCallWS task = new AsyncCallWS();
-//                        task.execute();
-//                    }
-//                }
-//            }
-//        });
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                if (etLogin.getText().toString().equals("") || etPassword.getText().toString().equals("")) {
+                    Toast.makeText(getApplicationContext(), StringUtils.BLANK_FIELD, Toast.LENGTH_SHORT).show();
+                } else {
+                    if (etLogin.getText().toString().equals("12345678") && etPassword.getText().toString().equals("12345678")) {
+                        Intent intent = new Intent(LoginActivity.this, ConfiguracaoActivity.class);
+                        startActivity(intent);
+                    } else {
+                        AsyncCallWS task = new AsyncCallWS();
+                        task.execute();
+                    }
+                }
+            }
+        });
     }
 
     @Override
@@ -152,14 +152,15 @@ public class LoginActivity extends AppCompatActivity {
 //                getIntent().getSerializableExtra("UsuarioEO");
 //                startActivity(intent);
 //                finish();
-//            }
+                // }
                 Intent intent = new Intent(LoginActivity.this, AutorizacaoActivity.class);
-                intent.putExtra("login", prefsPrivate.getString("login","NA"));
+                intent.putExtra("login", prefsPrivate.getString("login", "NA"));
                 startActivity(intent);
+                finish();
                 //showResult(resultString);
 
             } catch (PackageManager.NameNotFoundException e) {
-                // log and/or handle
+                e.printStackTrace();
                 Toast.makeText(LoginActivity.this, "Arquivo não encontrado", Toast.LENGTH_SHORT).show();
             } catch (NullPointerException e) {
                 Toast.makeText(LoginActivity.this, "Null", Toast.LENGTH_SHORT).show();
@@ -167,6 +168,7 @@ public class LoginActivity extends AppCompatActivity {
 
             this.dialog.dismiss();
         }
+
     }
 
     public void showResult(String result) {

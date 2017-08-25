@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     }
