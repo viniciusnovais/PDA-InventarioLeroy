@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/cod"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".32"
+            android:gravity="end"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="1184962"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".01"
+            android:gravity="end"
+            android:maxLines="1"
+            android:text="|"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/nomeProduto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Chester Perd.c/Azei/Erv.Cong.k"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".01"
+            android:gravity="end"
+            android:maxLines="1"
+            android:text="|"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/qtde"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".35"
+            android:gravity="start"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="10000.0"
+            android:textColor="@color/black"
+            android:textSize="15dp" />7
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BBBBBB" />
+
+</LinearLayout>

@@ -19,209 +19,206 @@ import android.os.Environment;
 import android.util.Log;
 
 public class ProdutoBC {
-	private SQLiteDatabase bd;
-	private DbOpenHelper openHelper;
+    private SQLiteDatabase bd;
+    private DbOpenHelper openHelper;
 
-	public ProdutoBC(Context context){
-		openHelper = new DbOpenHelper(context);
-	}
+    public ProdutoBC(Context context) {
+        openHelper = new DbOpenHelper(context);
+    }
 
-	public void OpenConnection(){
-		bd = openHelper.getWritableDatabase();
-	}
+    public void OpenConnection() {
+        bd = openHelper.getWritableDatabase();
+    }
 
-	public void CloseConnection() {
-		bd.close();
-	}
+    public void CloseConnection() {
+        bd.close();
+    }
 
-	public void InsertProduto(List<ProdutoEO> produtoList) {
-		try {
-			this.DeleteProduto();
-			this.OpenConnection();
+    public void InsertProduto(List<ProdutoEO> produtoList) {
+        try {
+            this.DeleteProduto();
+            this.OpenConnection();
 
-			String sql = "INSERT INTO PDA_TB_PRODUTO VALUES (?, ?, ?, ?, ?);";
-			SQLiteStatement statement = bd.compileStatement(sql);
-			bd.beginTransaction();
-			Log.i("Insert", "Begin");
-			for (int i = 0; i < produtoList.size(); i++) {
-				statement.clearBindings();
-				statement.bindString(2, produtoList.get(i).getCodSku());
-				statement.bindString(3, produtoList
-						.get(i).getCodAutomacao());
-				statement.bindString(4, produtoList.get(i).getDescSku());
-				statement.bindDouble(5, produtoList.get(i).getPreco());
-				statement.execute();
-			}
-			bd.setTransactionSuccessful();	
-			bd.endTransaction();		
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	} 
-	
-	public void insertProdutoFile(List<String> fileName) {
-		String[] fileProd;
-		//File sdcard = new File(Environment.getExternalStorageDirectory(), "/unzipped/");
-		File sdcard = new File(Environment.getExternalStorageDirectory().toString());
-		Log.i("ReadFile", "Begin");
-		this.DeleteProduto();
-		for (int i = 0; i < fileName.size(); i++) {
-			// Get the text file
-			File file = new File(sdcard, fileName.get(i));
+            String sql = "INSERT INTO PDA_TB_PRODUTO VALUES (?, ?, ?, ?, ?, ?);";
+            SQLiteStatement statement = bd.compileStatement(sql);
+            bd.beginTransaction();
+            Log.i("Insert", "Begin");
+            for (int i = 0; i < produtoList.size(); i++) {
+                statement.clearBindings();
+                statement.bindString(2, produtoList.get(i).getCodSku());
+                statement.bindString(3, produtoList
+                        .get(i).getCodAutomacao());
+                statement.bindString(4, produtoList.get(i).getDescSku());
+                statement.bindDouble(5, produtoList.get(i).getPreco());
+                statement.bindString(6, produtoList.get(i).getUnidadeMedida());
+                statement.execute();
+            }
+            bd.setTransactionSuccessful();
+            bd.endTransaction();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
-			// Read text from file
-			StringBuilder text = new StringBuilder();		
-			Log.i("ReadFile", file.getName());
-			try {
-				this.OpenConnection();
-				String sql = "INSERT INTO PDA_TB_PRODUTO VALUES (?, ?, ?, ?, ?);";
-				SQLiteStatement statement = bd.compileStatement(sql);
-				bd.beginTransaction();
-				
-				BufferedReader br = new BufferedReader(new FileReader(file));
-				String line;
+    public void insertProdutoFile(List<String> fileName) {
+        String[] fileProd;
+        //File sdcard = new File(Environment.getExternalStorageDirectory(), "/unzipped/");
+        File sdcard = new File(Environment.getExternalStorageDirectory().toString());
+        Log.i("ReadFile", "Begin");
+        this.DeleteProduto();
+        for (int i = 0; i < fileName.size(); i++) {
+            // Get the text file
+            File file = new File(sdcard, fileName.get(i));
 
-				while ((line = br.readLine()) != null) {
-					//ProdutoEO produtoEO = new ProdutoEO();
-					fileProd = line.split(";");
-					statement.clearBindings();
-					statement.bindString(2, fileProd[0]);
-					statement.bindString(3, fileProd[1]);
-					statement.bindString(4, fileProd[2]);
-					statement.bindDouble(5, 0);
-					statement.execute();
-				}
-				br.close();
-				bd.setTransactionSuccessful();	
-				bd.endTransaction();		
-				try {
-					file.delete();
-				} catch (Exception e) {
-					e.printStackTrace();
-				}			
+            // Read text from file
+            StringBuilder text = new StringBuilder();
+            Log.i("ReadFile", file.getName());
+            try {
+                this.OpenConnection();
+                String sql = "INSERT INTO PDA_TB_PRODUTO VALUES (?, ?, ?, ?, ?, ?);";
+                SQLiteStatement statement = bd.compileStatement(sql);
+                bd.beginTransaction();
 
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}	
-	} 
+                BufferedReader br = new BufferedReader(new FileReader(file));
+                String line;
 
-	public void InsertProduto(ProdutoEO produtoEO) {
-		try {
-			this.DeleteProduto();
-			this.OpenConnection();
+                while ((line = br.readLine()) != null) {
+                    //ProdutoEO produtoEO = new ProdutoEO();
+                    fileProd = line.split(";");
+                    statement.clearBindings();
+                    statement.bindString(2, fileProd[0]);
+                    statement.bindString(3, fileProd[1]);
+                    statement.bindString(4, fileProd[2]);
+                    statement.bindDouble(5, Double.parseDouble(fileProd[3]));
+                    statement.bindString(6, fileProd[4]);
+                    statement.execute();
+                }
+                br.close();
+                bd.setTransactionSuccessful();
+                bd.endTransaction();
+                try {
+                    file.delete();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
 
-			String sql = "INSERT INTO PDA_TB_PRODUTO VALUES (?, ?, ?, ?, ?);";
-			SQLiteStatement statement = bd.compileStatement(sql);
-			bd.beginTransaction();
-			Log.i("Insert", "Begin");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 
-			statement.clearBindings();
-			statement.bindString(2, produtoEO.getCodSku());
-			statement.bindString(3, produtoEO.getCodAutomacao());
-			statement.bindString(4, produtoEO.getDescSku());
-			statement.bindDouble(5, produtoEO.getPreco());
-			statement.execute();
+    public void InsertProduto(ProdutoEO produtoEO) {
+        try {
+            this.DeleteProduto();
+            this.OpenConnection();
 
-			bd.setTransactionSuccessful();	
-			bd.endTransaction();		
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	} 
+            String sql = "INSERT INTO PDA_TB_PRODUTO VALUES (?, ?, ?, ?, ?);";
+            SQLiteStatement statement = bd.compileStatement(sql);
+            bd.beginTransaction();
+            Log.i("Insert", "Begin");
 
-	public int DeleteProduto(){
-		try{
-			this.OpenConnection();
-			return bd.delete("PDA_TB_PRODUTO", null, null);	
-		}
-		finally{
-			this.CloseConnection();
-		}			
-	}
+            statement.clearBindings();
+            statement.bindString(2, produtoEO.getCodSku());
+            statement.bindString(3, produtoEO.getCodAutomacao());
+            statement.bindString(4, produtoEO.getDescSku());
+            statement.bindDouble(5, produtoEO.getPreco());
+            statement.execute();
 
-	public ProdutoEO GetProdByEAN(String codeEAN){
-		try{
-			this.OpenConnection();
+            bd.setTransactionSuccessful();
+            bd.endTransaction();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
-			ProdutoEO objProduto = new ProdutoEO();
-			String[] args = {codeEAN};
-			Cursor cursor = bd.query("PDA_TB_PRODUTO", null, "EAN = ?" ,args, null, null, null);
-			while(cursor.moveToNext()){
-				objProduto.setIdProduto(cursor.getInt(0));
-				objProduto.setCodSku(cursor.getString(1));
-				objProduto.setCodAutomacao(cursor.getString(2));
-				objProduto.setDescSku(cursor.getString(3));
-				objProduto.setPreco(cursor.getInt(4));
-			}
-			cursor.close(); 
+    public int DeleteProduto() {
+        try {
+            this.OpenConnection();
+            return bd.delete("PDA_TB_PRODUTO", null, null);
+        } finally {
+            this.CloseConnection();
+        }
+    }
 
-			return objProduto;
-		}
-		catch(Exception e){
-			e.printStackTrace();
-			return null;
-		}
-		finally{
-			this.CloseConnection();
-		}
-	}
+    public ProdutoEO GetProdByEAN(String codeEAN) {
+        try {
+            this.OpenConnection();
 
-	public ProdutoEO GetProdBySKU(String codeSKU){
-		try{
-			this.OpenConnection();
+            ProdutoEO objProduto = new ProdutoEO();
+            String[] args = {codeEAN};
+            Cursor cursor = bd.query("PDA_TB_PRODUTO", null, "EAN = ?", args, null, null, null);
+            while (cursor.moveToNext()) {
+                objProduto.setIdProduto(cursor.getInt(0));
+                objProduto.setCodSku(cursor.getString(1));
+                objProduto.setCodAutomacao(cursor.getString(2));
+                objProduto.setDescSku(cursor.getString(3));
+                objProduto.setPreco(cursor.getInt(4));
+                objProduto.setUnidadeMedida(cursor.getString(5));
+            }
+            cursor.close();
 
-			ProdutoEO objProduto = new ProdutoEO();
-			String[] args = {codeSKU};
-			Cursor cursor = bd.query("PDA_TB_PRODUTO", null, "COD_PRODUTO = ?" ,args, null, null, null);
-			while(cursor.moveToNext()){
-				objProduto.setIdProduto(cursor.getInt(0));
-				objProduto.setCodSku(cursor.getString(1));
-				objProduto.setCodAutomacao(cursor.getString(2));
-				objProduto.setDescSku(cursor.getString(3));
-				objProduto.setPreco(cursor.getInt(4));
-			}
-			cursor.close(); 
+            return objProduto;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        } finally {
+            this.CloseConnection();
+        }
+    }
 
-			return objProduto;
-		}
-		catch(Exception e){
-			e.printStackTrace();
-			return null;
-		}
-		finally{
-			this.CloseConnection();
-		}
-	}
+    public ProdutoEO GetProdBySKU(String codeSKU) {
+        try {
+            this.OpenConnection();
 
-	public List<ProdutoEO> GetProd(){
-		try{
-			this.OpenConnection();
+            ProdutoEO objProduto = new ProdutoEO();
+            String[] args = {codeSKU};
+            Cursor cursor = bd.query("PDA_TB_PRODUTO", null, "COD_PRODUTO = ?", args, null, null, null);
+            while (cursor.moveToNext()) {
+                objProduto.setIdProduto(cursor.getInt(0));
+                objProduto.setCodSku(cursor.getString(1));
+                objProduto.setCodAutomacao(cursor.getString(2));
+                objProduto.setDescSku(cursor.getString(3));
+                objProduto.setPreco(cursor.getInt(4));
+                objProduto.setUnidadeMedida(cursor.getString(5));
+            }
+            cursor.close();
 
-			List<ProdutoEO> objProdutoList = new ArrayList<ProdutoEO>();
-			ProdutoEO objProduto = new ProdutoEO();
+            return objProduto;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        } finally {
+            this.CloseConnection();
+        }
+    }
 
-			Cursor cursor = bd.query("PDA_TB_PRODUTO", null, null ,null, null, null, null);
-			while(cursor.moveToNext()){
-				objProduto = new ProdutoEO();
-				objProduto.setIdProduto(cursor.getInt(0));
-				objProduto.setCodSku(cursor.getString(1));
-				objProduto.setCodAutomacao(cursor.getString(2));
-				objProduto.setDescSku(cursor.getString(3));
-				objProduto.setPreco(cursor.getInt(4));
+    public List<ProdutoEO> GetProd() {
+        try {
+            this.OpenConnection();
 
-				objProdutoList.add(objProduto);
-			}
-			cursor.close(); 
+            List<ProdutoEO> objProdutoList = new ArrayList<ProdutoEO>();
+            ProdutoEO objProduto = new ProdutoEO();
 
-			return objProdutoList;
-		}
-		catch(Exception e){
-			e.printStackTrace();
-			return null;
-		}
-		finally{
-			this.CloseConnection();
-		}
-	}
+            Cursor cursor = bd.query("PDA_TB_PRODUTO", null, null, null, null, null, null);
+            while (cursor.moveToNext()) {
+                objProduto = new ProdutoEO();
+                objProduto.setIdProduto(cursor.getInt(0));
+                objProduto.setCodSku(cursor.getString(1));
+                objProduto.setCodAutomacao(cursor.getString(2));
+                objProduto.setDescSku(cursor.getString(3));
+                objProduto.setPreco(cursor.getInt(4));
+
+                objProdutoList.add(objProduto);
+            }
+            cursor.close();
+
+            return objProdutoList;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        } finally {
+            this.CloseConnection();
+        }
+    }
 }
