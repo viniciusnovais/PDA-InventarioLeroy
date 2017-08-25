@@ -6,15 +6,27 @@
     android:orientation="vertical">
 
 
-    <TextView
-        android:id="@+id/tvTituloTela"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:textColor="@color/color_gray_dark_textview"
-        android:text="Contagem"
-        />
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start|bottom"
+            android:src="@drawable/logo_leroy" />
+
+        <TextView
+            android:id="@+id/tvTituloTela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:gravity="end"
+            android:text="Contagem"
+            android:textSize="15dp" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,46 +36,45 @@
 
         <EditText
             android:id="@+id/etEndProd"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:layout_weight=".5"
-            android:inputType="number"
-            android:background="@drawable/bg_edittext"
-            android:maxLines="1" />
-
-        <ImageView
-            android:id="@+id/btnProcurar"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_weight=".1"
-            android:src="@drawable/ic_youtube_searched_for_white_24dp" />
+            android:background="@drawable/bg_edittext"
+            android:drawableRight="@drawable/ic_search"
+            android:focusable="true"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="5dp" />
 
     </LinearLayout>
 
 
     <TextView
         android:id="@+id/tvEndereco"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-
+        android:background="@drawable/bg_edittext"
+        android:padding="5dp"
         android:text="@string/endereco"
         android:textSize="18dp" />
 
     <TextView
         android:id="@+id/tvDepto"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:padding="5dp"
         android:text="@string/departamento"
         android:textSize="18dp" />
 
     <TextView
         android:id="@+id/tvSetor"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:padding="5dp"
         android:text="@string/setor"
         android:textSize="18dp" />
 
@@ -71,40 +82,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnFechar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".5"
-            android:background="@drawable/bg_button"
-            android:textColor="@color/primary_material_light"
+            android:layout_weight=".33"
+            android:background="@drawable/bg_button_white"
+            android:stateListAnimator="@null"
             android:text="@string/fechar"
+            android:textAllCaps="false"
+            android:textColor="@color/green"
             android:textSize="18dp" />
 
         <Button
             android:id="@+id/btnExcluir"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".5"
-            android:text="@string/excluir"
             android:layout_marginLeft="5dp"
-            android:background="@drawable/bg_button"
-            android:textColor="@color/primary_material_light"
+            android:layout_weight=".33"
+            android:background="@drawable/bg_button_white"
+            android:stateListAnimator="@null"
+            android:text="@string/excluir"
+            android:textAllCaps="false"
+            android:textColor="@color/green"
             android:textSize="18dp" />
 
         <Button
             android:id="@+id/btnZerar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".5"
-            android:text="@string/zerar"
             android:layout_marginLeft="5dp"
-            android:background="@drawable/bg_button"
-            android:textColor="@color/primary_material_light"
+            android:layout_weight=".33"
+            android:background="@drawable/bg_button_white"
+            android:stateListAnimator="@null"
+            android:text="@string/zerar"
+            android:textAllCaps="false"
+            android:textColor="@color/green"
             android:textSize="18dp" />
 
     </LinearLayout>
@@ -112,28 +128,20 @@
 
     <Spinner
         android:id="@+id/spinMetodoContagem"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
         style="?android:attr/spinnerItemStyle"
-        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/bg_spinner" />
-
-    <TextView
-        android:id="@+id/tvProdDetail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="@string/produto"
-        android:textSize="18dp" />
-
 
     <ListView
         android:id="@+id/lvColeta"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
         android:background="@drawable/bg_edittext"
-        android:layout_marginTop="5dp">
-
+        android:divider="@null"
+        android:dividerHeight="0dp">
 
     </ListView>
 

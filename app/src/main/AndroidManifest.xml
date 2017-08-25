@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pda_inventario"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="9"
@@ -11,15 +11,17 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
 
+
     <application
         android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name="com.pda.inventario.SplashActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,22 +30,29 @@
         </activity>
         <activity
             android:name="com.pda.inventario.PrincipalActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+
         <activity
             android:name="com.pda.inventario.ContagemActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <!--<activity-->
+        <!--android:name="com.pda.inventario.LoginActivity"-->
+        <!--android:label="@string/title_activity_contagem" >-->
+        <!--</activity>-->
+
         <activity
-            android:name="com.pda.inventario.LoginActivity"
-            android:label="@string/title_activity_contagem" >
-        </activity>
+            android:name="com.pda.inventario.AutorizacaoActivity"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name="com.pda.inventario.AutorizacaoActivity"></activity>
+        <activity
+            android:name="com.pda.inventario.ConfiguracaoActivity"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name="com.pda.inventario.ConfiguracaoActivity"></activity>
-
-        <activity android:name="com.pda.inventario.MainActivity"></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+        <activity
+            android:name="com.pda.inventario.MainActivity"
+            android:screenOrientation="portrait"></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
         <meta-data
             android:name="com.google.android.gms.version"

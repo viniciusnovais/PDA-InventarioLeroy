@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/etColeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittext"
+        android:ems="10"
+        android:focusable="true"
+        android:hint="Quantidade"
+        android:inputType="number"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/color_gray_dark_edittext" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_button"
+        android:text="@string/confirmar"
+        android:textAllCaps="false"
+        android:textColor="@color/primary_material_light"
+        android:textSize="15dp" />
+
+</LinearLayout>
