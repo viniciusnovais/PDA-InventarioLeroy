@@ -159,23 +159,25 @@ public class PrincipalActivity extends Activity {
 
         btnAuditoria.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                try {
 
-                    Intent intent = new Intent(PrincipalActivity.this, ContagemActivity.class);
-                    intent.putExtra("UsuarioEO", objUsuarioLogado);
-                    getIntent().getSerializableExtra("UsuarioEO");
-
-                    intent.putExtra("InventarioEO", objInventario);
-                    getIntent().getSerializableExtra("InventarioEO");
-
-                    intent.putExtra("TIPO_ATIVIDADE", ATIVIDADE_AUDITORIA);
-                    getIntent().getSerializableExtra("TIPO_ATIVIDADE");
-
-                    startActivity(intent);
-
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+                Toast.makeText(PrincipalActivity.this,"Função inativa no momento",Toast.LENGTH_SHORT).show();
+//                try {
+//
+//                    Intent intent = new Intent(PrincipalActivity.this, ContagemActivity.class);
+//                    intent.putExtra("UsuarioEO", objUsuarioLogado);
+//                    getIntent().getSerializableExtra("UsuarioEO");
+//
+//                    intent.putExtra("InventarioEO", objInventario);
+//                    getIntent().getSerializableExtra("InventarioEO");
+//
+//                    intent.putExtra("TIPO_ATIVIDADE", ATIVIDADE_AUDITORIA);
+//                    getIntent().getSerializableExtra("TIPO_ATIVIDADE");
+//
+//                    startActivity(intent);
+//
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
             }
         });
 
