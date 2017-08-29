@@ -1,103 +1,19 @@
 [
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_list.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_settings.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_settings.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_minus.xml",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_minus.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_list_with_dots.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_list_with_dots.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_listing_option.xml",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_listing_option.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_settings.xml",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_youtube_searched_for_white_24dp.xml",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_youtube_searched_for_white_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_minus.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_minus.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_arrow_drop_down_black_24dp.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_drop_down_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_minus.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_minus.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_export.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_export.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_import.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_import.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_list.xml",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_list_with_dots.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_list_with_dots.xml"
-    },
-    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_search.xml",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_search.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_youtube_searched_for_white_24dp.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_youtube_searched_for_white_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_import.xml",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_import.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_export.xml",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_export.xml"
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\809667c36aa1b78b8e8bc9ba847a41a4db9d4ae8\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_listing_option.xml",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_listing_option.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_listing_option.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_listing_option.xml"
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_settings.xml",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings.xml"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_youtube_searched_for_white_24dp.xml",
@@ -108,35 +24,27 @@
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_list.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_arrow_drop_down_black_24dp.xml",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_drop_down_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_search.xml",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_search.xml"
-    },
-    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_import.xml",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_import.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_minus.xml",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_minus.xml"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_arrow_drop_down_black_24dp.xml",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_drop_down_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_list_with_dots.xml",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_list_with_dots.xml"
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_export.xml",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_export.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_export.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_export.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_list_with_dots.xml",
+        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_list_with_dots.xml"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\809667c36aa1b78b8e8bc9ba847a41a4db9d4ae8\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     }
 ]

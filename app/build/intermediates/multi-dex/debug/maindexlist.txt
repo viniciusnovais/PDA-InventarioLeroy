@@ -464,8 +464,8 @@ android/support/v4/net/ConnectivityManagerCompat$ConnectivityManagerCompatImpl.c
 android/support/annotation/FractionRes.class
 android/support/annotation/PluralsRes.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserImpl.class
-android/support/v7/widget/Space.class
 android/support/v4/widget/SwipeRefreshLayout.class
+android/support/v7/widget/Space.class
 android/support/v4/media/session/PlaybackStateCompatApi22.class
 android/support/v4/content/ContextCompat.class
 android/support/multidex/MultiDex$V14.class

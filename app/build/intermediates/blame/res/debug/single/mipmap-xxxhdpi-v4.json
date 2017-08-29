@@ -1,14 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_drop_down.png",
-        "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-Inventario1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_drop_down.png"
-    },
-    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_drop_down.png",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_drop_down.png"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_drop_down.png",
-        "source": "C:\\Users\\PDA\\Desktop\\PDA-InventarioLeroy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_drop_down.png"
     }
 ]
