@@ -143,7 +143,8 @@ public class AutorizacaoActivity extends AbsRuntimePermission {
                     Toast.makeText(getApplicationContext(), StringUtils.BLANK_FIELD, Toast.LENGTH_LONG).show();
                 } else {
                     //limpar coletor antes de entrar
-                    repository.limpaBase();
+
+                   // repository.limpaBase();
                     autorizacao = etAutorizacao.getText().toString();
                     AsyncCallWS task = new AsyncCallWS();
                     task.execute();

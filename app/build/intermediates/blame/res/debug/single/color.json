@@ -4,12 +4,8 @@
         "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\809667c36aa1b78b8e8bc9ba847a41a4db9d4ae8\\output\\res\\color\\design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\fa282f58bc0dd3453c4040a85da55aa97163f57e\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\ec8bc80356b248ff3c80f4768d4d508a8735b0bf\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
@@ -18,6 +14,126 @@
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\ec8bc80356b248ff3c80f4768d4d508a8735b0bf\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\eeb9f76f0c73e6948cae4ba41fbfbe10c85eff98\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\809667c36aa1b78b8e8bc9ba847a41a4db9d4ae8\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\fa282f58bc0dd3453c4040a85da55aa97163f57e\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\809667c36aa1b78b8e8bc9ba847a41a4db9d4ae8\\output\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\PDA\\.android\\build-cache\\fa282f58bc0dd3453c4040a85da55aa97163f57e\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
@@ -36,20 +152,24 @@
         "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\ec8bc80356b248ff3c80f4768d4d508a8735b0bf\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
         "source": "C:\\Users\\PDA\\.android\\build-cache\\fa282f58bc0dd3453c4040a85da55aa97163f57e\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_btn_colored_text_material.xml"
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
         "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
@@ -60,18 +180,6 @@
         "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\809667c36aa1b78b8e8bc9ba847a41a4db9d4ae8\\output\\res\\color\\design_error.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
         "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
@@ -80,35 +188,39 @@
         "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_tint_btn_checkable.xml"
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
         "source": "C:\\Users\\PDA\\.android\\build-cache\\fa282f58bc0dd3453c4040a85da55aa97163f57e\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\eeb9f76f0c73e6948cae4ba41fbfbe10c85eff98\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color\\abc_tint_switch_thumb.xml"
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\PDA\\.android\\build-cache\\fa282f58bc0dd3453c4040a85da55aa97163f57e\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\ec8bc80356b248ff3c80f4768d4d508a8735b0bf\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     }
 ]

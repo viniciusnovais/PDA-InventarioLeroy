@@ -1,139 +1,139 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:2:1-62:12
 	package
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:3:5-41
-		INJECTED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\PDA\.android\build-cache\e07b739c4b4fbe9e18eacb757ea71cc0fa47993d\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:gridlayout-v7:23.4.0] C:\Users\PDA\.android\build-cache\31e6d349deeeeb23a49cc28e8841f4e67507017f\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\PDA\.android\build-cache\5ac04392be8786b4c0f508d436b26dd089fb9584\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\PDA\.android\build-cache\fa282f58bc0dd3453c4040a85da55aa97163f57e\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\PDA\.android\build-cache\fc464894bf8f2cc628894a9bb4bfb4489d9ef321\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:design:25.1.1] C:\Users\PDA\.android\build-cache\809667c36aa1b78b8e8bc9ba847a41a4db9d4ae8\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\PDA\.android\build-cache\c6fef2e205e631560a3dfc5e41aa4ad09892848d\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\PDA\.android\build-cache\5e3df92294d7e2e1543133617448e9ad8d2ea7a0\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\PDA\.android\build-cache\4690cf297fae85185e15f62ae8e3edfc5a297b22\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.1.1] C:\Users\PDA\.android\build-cache\0367dc3bd9bfa4514e3c2ecac3d9639dfc224b11\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.1.1] C:\Users\PDA\.android\build-cache\6f7d5655d14a543a503c6b01f08a405bcc4e4c01\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.1.1] C:\Users\PDA\.android\build-cache\e47bc3adc88c36d5f05730c77d1d36997835b896\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\PDA\.android\build-cache\755bb5651216f6b5b688488084b8d6bafc0f2661\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\PDA\.android\build-cache\f5a91f81cb95d7b4e7ba544d112f15d2122a1b34\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\PDA\.android\build-cache\4454fad4e3ac90b564a5572afb51ca2b7593271a\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\PDA\.android\build-cache\11d3f67a220c2cfe9c3ee11f48987c7309c7ad4b\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.1.1] C:\Users\PDA\.android\build-cache\8724c5ed0e9d0fa83f51a5650218746330d227fc\output\AndroidManifest.xml:21:5-23:58
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\PDA_Vinicius\.android\build-cache\9e9cf4ddd560d97f587b1e6c93a2c4fa33e5404f\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:gridlayout-v7:23.4.0] C:\Users\PDA_Vinicius\.android\build-cache\da4545a021d66303ee6123a6d58224c8e662fab0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\PDA_Vinicius\.android\build-cache\3a8057b2801ca89612da17c3d7be2f84af221e08\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\PDA_Vinicius\.android\build-cache\ec8bc80356b248ff3c80f4768d4d508a8735b0bf\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\PDA_Vinicius\.android\build-cache\a92386c6bb0746ddebe405d9256d0c91527e8051\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:design:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\eeb9f76f0c73e6948cae4ba41fbfbe10c85eff98\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\616212540b7d5a451fe15731935130d43d8e30f5\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\c8507e16ab29e9cdce5b4b9b009298da94bf8196\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\6c0826a4df5f4bda6cbeaedc65624b53c99e7e41\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\5c76432c872f44ed9cf5d52ccaa39a46799fa81b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\a41b3dc111f5d2a67d3b3fe1a636f90bd1b66a4a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\110c88317ec5e53549a10c6bb7c47f8a0acba1ce\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\60ffe065451eec24ad23c50b0ed386bc1916a609\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\6546dddd0c6191726f7dcf9ab1b35b470f92b7d2\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\e2565b03c2594bb513c94916fd50ec7a63281f23\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\7f216f25155f6503da03edd3c19ace35a0914ebd\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\a562769a8fbdf05a3ba30ea2fe150284675620cf\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.1.1] C:\Users\PDA\.android\build-cache\809667c36aa1b78b8e8bc9ba847a41a4db9d4ae8\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\eeb9f76f0c73e6948cae4ba41fbfbe10c85eff98\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:8:9-34
-		INJECTED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:11:5-67
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:11:22-64
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:12:5-97
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:12:5-97
 	android:name
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:12:22-78
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:15:5-60:19
-MERGED from [com.android.support:gridlayout-v7:23.4.0] C:\Users\PDA\.android\build-cache\31e6d349deeeeb23a49cc28e8841f4e67507017f\output\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\PDA\.android\build-cache\5ac04392be8786b4c0f508d436b26dd089fb9584\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\PDA\.android\build-cache\fc464894bf8f2cc628894a9bb4bfb4489d9ef321\output\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:design:25.1.1] C:\Users\PDA\.android\build-cache\809667c36aa1b78b8e8bc9ba847a41a4db9d4ae8\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\PDA\.android\build-cache\c6fef2e205e631560a3dfc5e41aa4ad09892848d\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\PDA\.android\build-cache\5e3df92294d7e2e1543133617448e9ad8d2ea7a0\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\PDA\.android\build-cache\4690cf297fae85185e15f62ae8e3edfc5a297b22\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.1.1] C:\Users\PDA\.android\build-cache\6f7d5655d14a543a503c6b01f08a405bcc4e4c01\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.1.1] C:\Users\PDA\.android\build-cache\e47bc3adc88c36d5f05730c77d1d36997835b896\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\PDA\.android\build-cache\755bb5651216f6b5b688488084b8d6bafc0f2661\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\PDA\.android\build-cache\f5a91f81cb95d7b4e7ba544d112f15d2122a1b34\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\PDA\.android\build-cache\4454fad4e3ac90b564a5572afb51ca2b7593271a\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\PDA\.android\build-cache\11d3f67a220c2cfe9c3ee11f48987c7309c7ad4b\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.1.1] C:\Users\PDA\.android\build-cache\8724c5ed0e9d0fa83f51a5650218746330d227fc\output\AndroidManifest.xml:25:5-20
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:15:5-60:19
+MERGED from [com.android.support:gridlayout-v7:23.4.0] C:\Users\PDA_Vinicius\.android\build-cache\da4545a021d66303ee6123a6d58224c8e662fab0\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\PDA_Vinicius\.android\build-cache\3a8057b2801ca89612da17c3d7be2f84af221e08\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\PDA_Vinicius\.android\build-cache\a92386c6bb0746ddebe405d9256d0c91527e8051\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:design:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\eeb9f76f0c73e6948cae4ba41fbfbe10c85eff98\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\616212540b7d5a451fe15731935130d43d8e30f5\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\c8507e16ab29e9cdce5b4b9b009298da94bf8196\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\6c0826a4df5f4bda6cbeaedc65624b53c99e7e41\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\a41b3dc111f5d2a67d3b3fe1a636f90bd1b66a4a\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\110c88317ec5e53549a10c6bb7c47f8a0acba1ce\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\60ffe065451eec24ad23c50b0ed386bc1916a609\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\6546dddd0c6191726f7dcf9ab1b35b470f92b7d2\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\e2565b03c2594bb513c94916fd50ec7a63281f23\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\7f216f25155f6503da03edd3c19ace35a0914ebd\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\PDA_Vinicius\.android\build-cache\a562769a8fbdf05a3ba30ea2fe150284675620cf\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:19:9-41
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:19:9-41
 	android:allowBackup
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:17:9-35
 	android:icon
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:18:9-45
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:18:9-45
 	android:theme
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:20:9-40
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:20:9-40
 	android:name
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:16:9-68
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:16:9-68
 activity#com.pda.inventario.SplashActivity
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:21:9-30:20
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:21:9-30:20
 	android:screenOrientation
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:24:13-49
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:24:13-49
 	android:label
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:23:13-45
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:23:13-45
 	android:name
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:22:13-61
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:22:13-61
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.pda.inventario.PrincipalActivity
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:31:9-34:61
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:31:9-34:61
 	android:screenOrientation
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:34:13-49
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:34:13-49
 	android:label
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:33:13-45
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:33:13-45
 	android:name
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:32:13-64
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:32:13-64
 activity#com.pda.inventario.ContagemActivity
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:36:9-39:61
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:36:9-39:61
 	android:screenOrientation
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:39:13-49
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:39:13-49
 	android:label
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:38:13-45
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:38:13-45
 	android:name
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:37:13-63
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:37:13-63
 activity#com.pda.inventario.AutorizacaoActivity
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:45:9-47:61
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:45:9-47:61
 	android:screenOrientation
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:47:13-49
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:47:13-49
 	android:name
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:46:13-66
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:46:13-66
 activity#com.pda.inventario.ConfiguracaoActivity
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:49:9-51:61
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:49:9-51:61
 	android:screenOrientation
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:51:13-49
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:51:13-49
 	android:name
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:50:13-67
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:50:13-67
 activity#com.pda.inventario.MainActivity
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:53:9-55:61
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:53:9-55:61
 	android:screenOrientation
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:55:13-49
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:55:13-49
 	android:name
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:54:13-59
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:54:13-59
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:57:9-59:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\PDA\.android\build-cache\fc464894bf8f2cc628894a9bb4bfb4489d9ef321\output\AndroidManifest.xml:21:9-23:69
+ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:57:9-59:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\PDA_Vinicius\.android\build-cache\a92386c6bb0746ddebe405d9256d0c91527e8051\output\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:59:13-66
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:59:13-66
 	android:name
-		ADDED from C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:58:13-58
+		ADDED from C:\AndroidProjects\PDA-InventarioLeroy\app\src\main\AndroidManifest.xml:58:13-58

@@ -10,9 +10,8 @@ import java.util.List;
 
 public class DbOpenHelper extends SQLiteOpenHelper {
 
-
     public DbOpenHelper(Context context) {
-        super(context, "inventario.db", null, 5);
+        super(context, "inventario.db", null, 6);
     }
 
     @Override
@@ -40,18 +39,22 @@ public class DbOpenHelper extends SQLiteOpenHelper {
 
 
     public void deleteTables(SQLiteDatabase db) {
+
         Cursor cursor = db.rawQuery("SELECT name FROM sqlite_master WHERE type='table'", null);
         List<String> tables = new ArrayList<>();
-
-        while (cursor.moveToNext()) {
-            if (!cursor.getString(0).equals("sqlite_sequence")) {
-                tables.add(cursor.getString(0));
+        try {
+            while (cursor.moveToNext()) {
+                if (!cursor.getString(0).equals("sqlite_sequence")) {
+                    tables.add(cursor.getString(0));
+                }
             }
-        }
 
-        for (String table : tables) {
-            String dropQuery = "DROP TABLE IF EXISTS " + table;
-            db.execSQL(dropQuery);
+            for (String table : tables) {
+                String dropQuery = "DROP TABLE IF EXISTS " + table;
+                db.execSQL(dropQuery);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
     }

@@ -1,10 +1,18 @@
 [
     {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
         "source": "C:\\Users\\PDA\\.android\\build-cache\\c6fef2e205e631560a3dfc5e41aa4ad09892848d\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\616212540b7d5a451fe15731935130d43d8e30f5\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

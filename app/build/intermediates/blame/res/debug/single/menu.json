@@ -4,7 +4,15 @@
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contagem.xml",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\src\\main\\res\\menu\\contagem.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contagem.xml",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\src\\main\\res\\menu\\contagem.xml"
     }
 ]

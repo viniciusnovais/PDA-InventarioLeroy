@@ -34,32 +34,6 @@ public class ProdutoBC {
         bd.close();
     }
 
-    public void InsertProduto(List<ProdutoEO> produtoList) {
-        try {
-            this.DeleteProduto();
-            this.OpenConnection();
-
-            String sql = "INSERT INTO PDA_TB_PRODUTO VALUES (?, ?, ?, ?, ?, ?);";
-            SQLiteStatement statement = bd.compileStatement(sql);
-            bd.beginTransaction();
-            Log.i("Insert", "Begin");
-            for (int i = 0; i < produtoList.size(); i++) {
-                statement.clearBindings();
-                statement.bindString(2, produtoList.get(i).getCodSku());
-                statement.bindString(3, produtoList
-                        .get(i).getCodAutomacao());
-                statement.bindString(4, produtoList.get(i).getDescSku());
-                statement.bindDouble(5, produtoList.get(i).getPreco());
-                statement.bindString(6, produtoList.get(i).getUnidadeMedida());
-                statement.execute();
-            }
-            bd.setTransactionSuccessful();
-            bd.endTransaction();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
     public void insertProdutoFile(List<String> fileName) {
         String[] fileProd;
         //File sdcard = new File(Environment.getExternalStorageDirectory(), "/unzipped/");
@@ -94,16 +68,18 @@ public class ProdutoBC {
                     statement.execute();
                 }
                 br.close();
-                bd.setTransactionSuccessful();
-                bd.endTransaction();
+
                 try {
                     file.delete();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
 
-            } catch (IOException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
+            } finally {
+                bd.setTransactionSuccessful();
+                bd.endTransaction();
             }
         }
     }
@@ -125,10 +101,12 @@ public class ProdutoBC {
             statement.bindDouble(5, produtoEO.getPreco());
             statement.execute();
 
-            bd.setTransactionSuccessful();
-            bd.endTransaction();
+
         } catch (Exception e) {
             e.printStackTrace();
+        } finally {
+            bd.setTransactionSuccessful();
+            bd.endTransaction();
         }
     }
 

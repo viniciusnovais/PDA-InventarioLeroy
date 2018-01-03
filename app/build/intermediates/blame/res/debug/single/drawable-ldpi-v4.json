@@ -8,16 +8,40 @@
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_settings.png"
     },
     {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_listing_option.png",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_listing_option.png"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_search.png",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_search.png"
+    },
+    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_export.png",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_export.png"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_minus.png",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_minus.png"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_list.png",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_list.png"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_search.png",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_search.png"
     },
     {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_list_with_dots.png",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_list_with_dots.png"
+    },
+    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_arrow_drop_down_black_24dp.png",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_arrow_drop_down_black_24dp.png"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_export.png",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_export.png"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_list_with_dots.png",
@@ -28,8 +52,16 @@
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_import.png"
     },
     {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_arrow_drop_down_black_24dp.png",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_arrow_drop_down_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_list.png",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_list.png"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_import.png",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_import.png"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_minus.png",
@@ -38,5 +70,13 @@
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_listing_option.png",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_listing_option.png"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_youtube_searched_for_white_24dp.png",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_youtube_searched_for_white_24dp.png"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_settings.png",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_settings.png"
     }
 ]

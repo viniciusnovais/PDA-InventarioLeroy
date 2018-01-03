@@ -1,10 +1,18 @@
 [
     {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\eeb9f76f0c73e6948cae4ba41fbfbe10c85eff98\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\PDA\\.android\\build-cache\\809667c36aa1b78b8e8bc9ba847a41a4db9d4ae8\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\PDA\\.android\\build-cache\\809667c36aa1b78b8e8bc9ba847a41a4db9d4ae8\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\PDA_Vinicius\\.android\\build-cache\\eeb9f76f0c73e6948cae4ba41fbfbe10c85eff98\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     }
 ]

@@ -3,111 +3,84 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
-        jumboMode="true"
+        jar="C:\Users\PDA\.android\build-cache\fa282f58bc0dd3453c4040a85da55aa97163f57e\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_049020d665dde4d99f25b83fbe611066bbb9e353\classes.dex" />
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_626030ef4c9fe811945f65fc4f869c3f9563a957\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_fdd7902e52a0ec15677ae3472e8137a8fcd52efa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_67963e60d4eebea9885b809f0062ac216a4f7694\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9345355f27b1ced51962c6aaed0c0913c4eb8a89">
-        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_68c3636dce78d3ee1820339a2b2b3c36fdfb4553\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
+        jar="C:\Users\PDA\.android\build-cache\31e6d349deeeeb23a49cc28e8841f4e67507017f\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="7c4c1fcc34aca536e3389c31527fb3c941b80266">
-        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-gridlayout-v7-23.4.0_662095a691eba7bf80f1eb7576ffca0409dedb56\classes.dex" />
+        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d8ea02e563c9adf9e6c9dfd1ce0b3c2f39f07aee\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="true"
+        jar="C:\Users\PDA\.android\build-cache\5ac04392be8786b4c0f508d436b26dd089fb9584\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_c401e5e500051cc50e51a4f7b3610e6a412e49e3\classes.dex" />
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e6c28420ea0c898c4139a4565cce64268d25e62e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="53798ca868846b8d46c9d830f5fb44f8475899f9">
-        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1bd8be1be694e5edd7df2b72091c413f6ee5b983\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_23ee5b243b45b50bf8b608121cf1905142aec315\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PDA\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_8bd456ee2c4ed4f411837291f48ee40b79fa0a11\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\libs\commons-compress-1.11.jar"
-        jumboMode="true"
+        jar="C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\libs\commons-compress-1.11.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="f43ce4c878078cbcfbb061353aa672a4c8e81443">
-        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-compress-1.11_483448415f24377269299179485d59f80e48f74c\classes.dex" />
+        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-compress-1.11_63e1fc6c318450fc528dbc91d33634e73ebe741f\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\libs\ksoap2-android-assembly-3.5.0-jar-with-dependencies.jar"
-        jumboMode="true"
+        jar="C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\libs\ksoap2-android-assembly-3.5.0-jar-with-dependencies.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="21cd457fa3bf24fcb2ab1e3514930a326f5c5bb6">
-        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-3.5.0-jar-with-dependencies_09272cf1f57714ced571ac63f8091e81b831a2dd\classes.dex" />
+        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-3.5.0-jar-with-dependencies_e7253eadb8f449a965e7e30aaf8985a1745d5fd2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
+        jar="C:\Users\PDA\.android\build-cache\6f7d5655d14a543a503c6b01f08a405bcc4e4c01\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-Inventario1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_c8f7a0579f117d484efedd97ec1f637c4905f0aa\classes.dex" />
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_236f2ba077b42cf80a11778ce9a59b89bb039172\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PDA\.android\build-cache\809667c36aa1b78b8e8bc9ba847a41a4db9d4ae8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2514c655d0b5797bad1045734b8d56d3d490c7e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PDA\.android\build-cache\fc464894bf8f2cc628894a9bb4bfb4489d9ef321\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_38da4a73b1c33a627d5ff592b30cdeba813c70b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PDA\.android\build-cache\e07b739c4b4fbe9e18eacb757ea71cc0fa47993d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\PDA\AndroidStudioProjects\PDA-InventarioLeroy\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_064987916d0b2d7f0645a330fa2b6194f32bd9cd\classes.dex" />
     </item>
 
 </items>

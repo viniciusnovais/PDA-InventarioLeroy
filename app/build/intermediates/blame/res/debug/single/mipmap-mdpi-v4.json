@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_drop_down.png",
+        "source": "C:\\AndroidProjects\\PDA-InventarioLeroy\\app\\src\\main\\res\\mipmap-mdpi\\ic_drop_down.png"
+    },
+    {
         "merged": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_drop_down.png",
         "source": "C:\\Users\\PDA\\AndroidStudioProjects\\PDA-InventarioLeroy\\app\\src\\main\\res\\mipmap-mdpi\\ic_drop_down.png"
     }
